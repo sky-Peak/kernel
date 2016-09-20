@@ -1,0 +1,38 @@
+1.
+	头文件 #include <linux/cdev.h>
+	函数名称： cdev_add
+	功能： 将cdev模块添加到系统中去
+	使用方法：int cdev_add (struct cdev *cdev,dev_id devno,unsigned int count)
+	参数解释：cdev。要加载的模块结构体; 
+		 devno，设备号
+		count，一次记载的设备个数;
+	返回值：表示函数运行结果0为正常，非0为错误。
+2.
+	头文件 #include <>
+	函数名称：memset
+	功能：用给定的值填充内存区
+	使用方法：void * memset (void * s, int c, size_t count)
+	参数解释：s为指向内存区起始的指针，c为 要填充的内容，count为内存区的大小
+	返回值：
+3.
+	头文件 #include <>
+	函数名称：
+	功能：
+	使用方法：
+	参数解释：
+	返回值：
+4.
+	头文件 #include <>
+	函数名称：
+	功能：
+	使用方法：
+	参数解释：
+	返回值：
+
+5.
+	头文件 #include <>
+	函数名称：
+	功能：
+	使用方法：
+	参数解释：
+	返回值：
